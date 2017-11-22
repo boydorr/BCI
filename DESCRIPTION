@@ -1,0 +1,17 @@
+Package: BCI
+Type: Package
+Title: Private store for the Barro Colorado Island CTFS dataset
+Version: 0.1
+Date: 2017-11-22
+Author: CTFS
+Maintainer: CTFS <CTFS@email>
+Description: This package provides a way to access the CTFS data for Barro
+    Colorado Island.
+License: Closed
+LazyData: TRUE
+Imports:
+    tibble,
+    magrittr,
+    dplyr,
+    rdiversity
+RoxygenNote: 6.0.1
