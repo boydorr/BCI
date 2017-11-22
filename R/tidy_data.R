@@ -18,7 +18,7 @@ tidy_data <- function(dataset)
 {
   data <- dataset %>%
     dplyr::mutate(count = count / sum(dataset$count)) %>%
-    reshape2::dcast(species ~ grid, value.var = "count") %>%
+    reshape2::dcast(species ~ grid + date, value.var = "count") %>%
     as.data.frame
 
   rownames(data) <- data$species
