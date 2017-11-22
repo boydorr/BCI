@@ -22,5 +22,5 @@ tidy_data <- function(dataset)
     as.data.frame
 
   rownames(data) <- data$species
-  data %>% select(-species)
+  data %>% dplyr::select(-species)
 }
