@@ -66,6 +66,7 @@ devtools::use_package("vegan")
 devtools::use_package("iNEXT")
 devtools::use_package("ggplot2")
 devtools::use_package("reshape2")
+devtools::use_package("readr")
 devtools::use_package("rdiversity")
 
 # And rerun the documentation

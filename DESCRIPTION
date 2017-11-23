@@ -17,5 +17,6 @@ Imports:
     vegan,
     iNEXT,
     ggplot2,
-    reshape2
+    reshape2,
+    readr
 RoxygenNote: 6.0.1
